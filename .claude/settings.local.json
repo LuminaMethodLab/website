@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v hugo)",
+      "Read(//usr/local/bin/**)",
+      "Bash(brew install:*)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:www.moneysmart.fr)"
+    ]
+  }
+}

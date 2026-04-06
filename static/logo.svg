@@ -1,0 +1,19 @@
+<svg width="231" height="41" viewBox="0 0 231 41" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- 透明背景（已移除背景矩形），整体坐标向左上平移12px以保证8px安全留白 -->
+  <!-- L为主结构 -->
+  <path d="M8 8 L8 33 L30 33" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round"></path>
+
+  <!-- M的斜向上折线：起点低左，两峰依次升高，终点高右 -->
+  <polyline points="10,30 15,15 19,22 24,10 28,17"
+    fill="none" stroke="#E8A030" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"></polyline>
+
+  <!-- 结尾圆点：保留向上趋势暗示，移除连接线以保持 M 字形 -->
+  <circle cx="32" cy="13" r="2.2" fill="#E8A030"></circle>
+
+  <!-- 文字 -->
+  <text x="53" y="28" font-family="Inter, Arial, sans-serif" font-size="18">
+    <tspan font-weight="600" fill="#111111">Lumina</tspan>
+    <tspan font-weight="400" fill="#444444"> Method Lab</tspan>
+  </text>
+</svg>

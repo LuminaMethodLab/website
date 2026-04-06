@@ -7,9 +7,9 @@ summaryLength = 60
 
 [params]
   tagline = "清晰决策实验室"
-  description = "我们帮助在法华人家庭，把财富的积累和传承建立在真正有效的地图上——因为账户里的数字可以归零，看懂地图的能力不会。"
-  email = "hello@luminamethod.eu"
-  location = "Lyon, France"
+  description = "我们帮助在法华人家庭，把财富的积累和传承建立在真正有效的航海图上——因为账户里的数字可以归零，看懂航海图的能力不会。"
+  email = "contact@luminamethod.eu"
+  location = "France"
 
 [markup.goldmark.renderer]
   unsafe = true

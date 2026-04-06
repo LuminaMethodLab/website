@@ -5,7 +5,7 @@
     <div class="container">
       <a href="{{ "/posts/" | relURL }}" class="article-back">← 返回文章列表</a>
       <div class="article-meta">
-        <span class="article-date">{{ .Date.Format "2006年01月02日" }}</span>
+        {{ if eq .Section "posts" }}<span class="article-date">{{ .Date.Format "2006年01月02日" }}</span>{{ end }}
         {{ with .Params.tags }}
           {{ range . }}<span class="article-tag">{{ . }}</span>{{ end }}
         {{ end }}
@@ -24,8 +24,8 @@
       <aside class="article-sidebar">
         <div class="article-sidebar-card">
           <p class="article-sidebar-label">关于 Lumina Method Lab</p>
-          <p>我们帮助在法华人家庭，把财富的积累和传承建立在真正有效的地图上。</p>
-          <a href="{{ "/" | relURL }}#waitlist" class="btn btn-primary" style="margin-top:1rem;width:100%;justify-content:center;">加入候补名单</a>
+          <p>我们帮助在法华人家庭，把财富的积累和传承建立在真正有效的航海图上。</p>
+          <!-- <a href="{{ "/" | relURL }}#waitlist" class="btn btn-primary" style="margin-top:1rem;width:100%;justify-content:center;">加入候补名单</a> -->
         </div>
         {{ if .Site.RegularPages }}
         <div class="article-sidebar-card">
@@ -45,7 +45,7 @@
 
     <div class="article-footer">
       <div class="article-disclaimer">
-        <strong>合规声明：</strong>本文内容仅为教育目的，不构成任何投资建议（Non-CIF）。
+        <strong>合规声明：</strong>本文内容仅为学术教育分享，不构成任何投资建议（Non-CIF）。
       </div>
 
       <div class="article-nav-links">
