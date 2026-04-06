@@ -5,7 +5,11 @@
       "Read(//usr/local/bin/**)",
       "Bash(brew install:*)",
       "mcp__Claude_Preview__preview_start",
-      "WebFetch(domain:www.moneysmart.fr)"
+      "WebFetch(domain:www.moneysmart.fr)",
+      "mcp__eae44416-8e5d-4755-a95b-a622dff04c97__workers_get_worker",
+      "mcp__eae44416-8e5d-4755-a95b-a622dff04c97__accounts_list",
+      "mcp__eae44416-8e5d-4755-a95b-a622dff04c97__set_active_account",
+      "mcp__eae44416-8e5d-4755-a95b-a622dff04c97__workers_get_worker_code"
     ]
   }
 }
